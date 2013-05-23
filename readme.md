@@ -20,7 +20,8 @@ You can modify the configuration
 
 ## Creating your docs
 ### Declaring docs
-Register the docs you would like available by modifying the 'registeredDocs' property in the config file. This will handle URI mapping as well as creating your navigation!
+Register the docs you would like available by modifying the 'registeredDocs' property in the config file. This will handle URI mapping as well as creating your navigation! Also, you can declare stubs vs. Pretty Titles by using the format `stub:pretty`. By the way, there is no limitation to the depths of your uris/documents!
+
 ```php
 'registeredDocs' => array(
 	'start:Getting Started',
@@ -30,7 +31,7 @@ Register the docs you would like available by modifying the 'registeredDocs' pro
 	),
 ),
 ```
-
+### Markdown Files
 In your app path, place your docs in a 'docs' folder (this location can be modified in the config).
 There order should match the way you want your uris.
 So the file tree for the example would look like:
