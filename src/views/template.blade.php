@@ -9,6 +9,23 @@
 
     <!-- Le styles -->
     {{HTML::style('packages/rtablada/flat-docs/css/bootstrap.css')}}
+    <style>
+      body {
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
     {{HTML::style('packages/rtablada/flat-docs/css/bootstrap-responsive.css')}}
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
