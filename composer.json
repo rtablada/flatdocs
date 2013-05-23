@@ -1,0 +1,24 @@
+{
+    "name": "rtablada/flat-docs",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ryan Tablada",
+            "email": "ryan.tablada@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "dflydev/markdown": "1.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Rtablada\\FlatDocs": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
