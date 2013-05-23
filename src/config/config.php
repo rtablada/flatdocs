@@ -64,4 +64,18 @@ return array(
 	 */
 	'path' => app_path().'/docs',
 
+	/*
+	|--------------------------------------------------------------------------
+	| Documents Route Properties
+	|--------------------------------------------------------------------------
+	| 
+	| If you want more complicated rules for the route group, uncomment and use
+	| this array.
+	| 
+	 */
+	// 'routeProperties' => array(
+	// 	'domain' => '',
+	// 	'prefix' => ''
+	// ),
+
 );
