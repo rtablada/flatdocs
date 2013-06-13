@@ -2,12 +2,18 @@
 
 This clean Markdown utility allows you to make awesome documentation quickly.
 
-## Installation
+## Installation with [Laravel 4 Package Installer](https://github.com/rtablada/package-installer)
+
+Simply run `php artisan package:install rtablada/flat-docs`
+
+## Installation with Composer
 
 In your composer.json add `'rtablada/flat-docs': 'dev-master'`
 
 Then in your app/config/app.php add this to your Service Providers
 `'Rtablada\FlatDocs\FlatDocsServiceProvider',`
+
+## Publishing assets and configuration
 
 Finally run these few commands:
 ```bash
