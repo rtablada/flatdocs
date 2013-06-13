@@ -1,0 +1,7 @@
+{
+  "providers": [
+    "Rtablada\\FlatDocs\\FlatDocsServiceProvider"
+  ],
+  "aliases: [
+  ]
+}
